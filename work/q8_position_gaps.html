@@ -1,0 +1,2698 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9681102efbfbe041eba447d6bf3cf210 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9681102efbfbe041eba447d6bf3cf210" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9681102efbfbe041eba447d6bf3cf210 = L.map(
+                "map_9681102efbfbe041eba447d6bf3cf210",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eb3a41276d8f56a943ae47fc09fc8564 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_eb3a41276d8f56a943ae47fc09fc8564.addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var marker_cluster_fb9358082a4cc623613ab8d62afcc635 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            marker_cluster_fb9358082a4cc623613ab8d62afcc635.addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_193ed61f42051eaac3d739d22df41a3c = L.circleMarker(
+                [3.480980000000001, 72.33644],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_0f3f2dc7d2b9ab7bbfa15e5b895acc17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b1c71f5389a8999abd1e3cf45a403fc = $(`<div id="html_5b1c71f5389a8999abd1e3cf45a403fc" style="width: 100.0%; height: 100.0%;">NAVIRE-8779 — AIS</div>`)[0];
+                popup_0f3f2dc7d2b9ab7bbfa15e5b895acc17.setContent(html_5b1c71f5389a8999abd1e3cf45a403fc);
+            
+        
+
+        circle_marker_193ed61f42051eaac3d739d22df41a3c.bindPopup(popup_0f3f2dc7d2b9ab7bbfa15e5b895acc17)
+        ;
+
+        
+    
+    
+            var circle_marker_fcf25798fbfee51ae3a55d4a6208dc38 = L.circleMarker(
+                [-8.176885714285714, -95.26488571428571],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_840cfbe414d4df3d7eeb6a255d7109b0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fa9d0d4b40ef4488db203bedba9c898 = $(`<div id="html_7fa9d0d4b40ef4488db203bedba9c898" style="width: 100.0%; height: 100.0%;">NAVIRE-8779 — Radio (18547.9 km)</div>`)[0];
+                popup_840cfbe414d4df3d7eeb6a255d7109b0.setContent(html_7fa9d0d4b40ef4488db203bedba9c898);
+            
+        
+
+        circle_marker_fcf25798fbfee51ae3a55d4a6208dc38.bindPopup(popup_840cfbe414d4df3d7eeb6a255d7109b0)
+        ;
+
+        
+    
+    
+            var poly_line_a2147828395f15613140f25eeb8976b1 = L.polyline(
+                [[3.480980000000001, 72.33644], [-8.176885714285714, -95.26488571428571]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_fbe844cf6ab9b16b3169dde1e872e5a7 = L.circleMarker(
+                [-50.3374, 7.181744444444443],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_b4cde61cb31887ec06adef875389b927 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10bb11a4b8a5c6a905112357783eba78 = $(`<div id="html_10bb11a4b8a5c6a905112357783eba78" style="width: 100.0%; height: 100.0%;">NAVIRE-7681 — AIS</div>`)[0];
+                popup_b4cde61cb31887ec06adef875389b927.setContent(html_10bb11a4b8a5c6a905112357783eba78);
+            
+        
+
+        circle_marker_fbe844cf6ab9b16b3169dde1e872e5a7.bindPopup(popup_b4cde61cb31887ec06adef875389b927)
+        ;
+
+        
+    
+    
+            var circle_marker_dc75cc911c49da091f6ad3107079a297 = L.circleMarker(
+                [45.586, -148.39775],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_938d830d4c64c9cbdabe30b14a1254f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4eafcdfda9769e2baa2f5b9c4cc819e8 = $(`<div id="html_4eafcdfda9769e2baa2f5b9c4cc819e8" style="width: 100.0%; height: 100.0%;">NAVIRE-7681 — Radio (18131.2 km)</div>`)[0];
+                popup_938d830d4c64c9cbdabe30b14a1254f3.setContent(html_4eafcdfda9769e2baa2f5b9c4cc819e8);
+            
+        
+
+        circle_marker_dc75cc911c49da091f6ad3107079a297.bindPopup(popup_938d830d4c64c9cbdabe30b14a1254f3)
+        ;
+
+        
+    
+    
+            var poly_line_1d7d5b9a3584fd9e864191b838679987 = L.polyline(
+                [[-50.3374, 7.181744444444443], [45.586, -148.39775]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_7734f439e55dea30c20485faced10719 = L.circleMarker(
+                [56.928955555555554, -24.98033333333333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_24870de99617f53b72d3dd30b4ea20e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b04923148e288f22d6992aad83e33fc3 = $(`<div id="html_b04923148e288f22d6992aad83e33fc3" style="width: 100.0%; height: 100.0%;">NAVIRE-3465 — AIS</div>`)[0];
+                popup_24870de99617f53b72d3dd30b4ea20e3.setContent(html_b04923148e288f22d6992aad83e33fc3);
+            
+        
+
+        circle_marker_7734f439e55dea30c20485faced10719.bindPopup(popup_24870de99617f53b72d3dd30b4ea20e3)
+        ;
+
+        
+    
+    
+            var circle_marker_aadd4b4641eb2c4cb5817d556b63d9b3 = L.circleMarker(
+                [-39.1449, 133.1917],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_957570a60b477cfc9180732539e2c434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1be438ab486a616517124b1b308d3918 = $(`<div id="html_1be438ab486a616517124b1b308d3918" style="width: 100.0%; height: 100.0%;">NAVIRE-3465 — Radio (17480.0 km)</div>`)[0];
+                popup_957570a60b477cfc9180732539e2c434.setContent(html_1be438ab486a616517124b1b308d3918);
+            
+        
+
+        circle_marker_aadd4b4641eb2c4cb5817d556b63d9b3.bindPopup(popup_957570a60b477cfc9180732539e2c434)
+        ;
+
+        
+    
+    
+            var poly_line_216eb2c854c4585dbbe67391db0d144b = L.polyline(
+                [[56.928955555555554, -24.98033333333333], [-39.1449, 133.1917]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_0a7e7488eb26daf6ba9c4ef0cc287f7b = L.circleMarker(
+                [16.90591, -97.36077],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_8119702b000a11c785086a679e492a17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1dd27dafbf815ab2fc3554b41dd3c42 = $(`<div id="html_a1dd27dafbf815ab2fc3554b41dd3c42" style="width: 100.0%; height: 100.0%;">NAVIRE-4233 — AIS</div>`)[0];
+                popup_8119702b000a11c785086a679e492a17.setContent(html_a1dd27dafbf815ab2fc3554b41dd3c42);
+            
+        
+
+        circle_marker_0a7e7488eb26daf6ba9c4ef0cc287f7b.bindPopup(popup_8119702b000a11c785086a679e492a17)
+        ;
+
+        
+    
+    
+            var circle_marker_0a957014c95fd84136b13a562982862b = L.circleMarker(
+                [-18.758750000000003, 58.66669999999999],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_9b99019f630a7b382b505e4ab1909e6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f4c6c29b4b771414e3211657ee22049 = $(`<div id="html_1f4c6c29b4b771414e3211657ee22049" style="width: 100.0%; height: 100.0%;">NAVIRE-4233 — Radio (17471.1 km)</div>`)[0];
+                popup_9b99019f630a7b382b505e4ab1909e6e.setContent(html_1f4c6c29b4b771414e3211657ee22049);
+            
+        
+
+        circle_marker_0a957014c95fd84136b13a562982862b.bindPopup(popup_9b99019f630a7b382b505e4ab1909e6e)
+        ;
+
+        
+    
+    
+            var poly_line_a54bc03799e4d3ecf052e0d66eca67f9 = L.polyline(
+                [[16.90591, -97.36077], [-18.758750000000003, 58.66669999999999]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_ded9beb8c5b67063cdbbf8770fa7f451 = L.circleMarker(
+                [-28.05976, -30.274080000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_4bfff4d3138cc667755d2ae171530424 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_950e92086b253b88aa104792249eb180 = $(`<div id="html_950e92086b253b88aa104792249eb180" style="width: 100.0%; height: 100.0%;">NAVIRE-9321 — AIS</div>`)[0];
+                popup_4bfff4d3138cc667755d2ae171530424.setContent(html_950e92086b253b88aa104792249eb180);
+            
+        
+
+        circle_marker_ded9beb8c5b67063cdbbf8770fa7f451.bindPopup(popup_4bfff4d3138cc667755d2ae171530424)
+        ;
+
+        
+    
+    
+            var circle_marker_cf848c65edcb1dc5ca120eb3b56e6f40 = L.circleMarker(
+                [15.8427, 171.4179],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_d2fb861f7c58f268b83ed18e0c0c027d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_143be623b21178fe87be835101e000df = $(`<div id="html_143be623b21178fe87be835101e000df" style="width: 100.0%; height: 100.0%;">NAVIRE-9321 — Radio (17404.8 km)</div>`)[0];
+                popup_d2fb861f7c58f268b83ed18e0c0c027d.setContent(html_143be623b21178fe87be835101e000df);
+            
+        
+
+        circle_marker_cf848c65edcb1dc5ca120eb3b56e6f40.bindPopup(popup_d2fb861f7c58f268b83ed18e0c0c027d)
+        ;
+
+        
+    
+    
+            var poly_line_54e4688ef76aba3e7bf68bf4ff8821c1 = L.polyline(
+                [[-28.05976, -30.274080000000005], [15.8427, 171.4179]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_890ad73334b86bcc32b1c7e4794575cc = L.circleMarker(
+                [2.4127692307692303, 53.49533846153846],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_b3e6788d530dba1da892678f43c1bb55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_569c8c5a1edcaf25f9cf6e7250e9a1cb = $(`<div id="html_569c8c5a1edcaf25f9cf6e7250e9a1cb" style="width: 100.0%; height: 100.0%;">NAVIRE-3961 — AIS</div>`)[0];
+                popup_b3e6788d530dba1da892678f43c1bb55.setContent(html_569c8c5a1edcaf25f9cf6e7250e9a1cb);
+            
+        
+
+        circle_marker_890ad73334b86bcc32b1c7e4794575cc.bindPopup(popup_b3e6788d530dba1da892678f43c1bb55)
+        ;
+
+        
+    
+    
+            var circle_marker_40dee1bd9164a137e483627216ab1c2a = L.circleMarker(
+                [-6.521699999999999, -103.004225],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_21b042b8e85e81fccdc275142a38086b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39ff4fc76ab0b59789f2b6be61b4257f = $(`<div id="html_39ff4fc76ab0b59789f2b6be61b4257f" style="width: 100.0%; height: 100.0%;">NAVIRE-3961 — Radio (17370.8 km)</div>`)[0];
+                popup_21b042b8e85e81fccdc275142a38086b.setContent(html_39ff4fc76ab0b59789f2b6be61b4257f);
+            
+        
+
+        circle_marker_40dee1bd9164a137e483627216ab1c2a.bindPopup(popup_21b042b8e85e81fccdc275142a38086b)
+        ;
+
+        
+    
+    
+            var poly_line_948e6458559644163c83d26fdb012f8b = L.polyline(
+                [[2.4127692307692303, 53.49533846153846], [-6.521699999999999, -103.004225]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_b209d6f30f67349db7c8ffb74fe4bf27 = L.circleMarker(
+                [16.51193333333333, 151.30146666666667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_da72a3a1def1f252dc1445dff00d4f65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f46a554332578d1a6f9fc59f575d30ba = $(`<div id="html_f46a554332578d1a6f9fc59f575d30ba" style="width: 100.0%; height: 100.0%;">NAVIRE-5703 — AIS</div>`)[0];
+                popup_da72a3a1def1f252dc1445dff00d4f65.setContent(html_f46a554332578d1a6f9fc59f575d30ba);
+            
+        
+
+        circle_marker_b209d6f30f67349db7c8ffb74fe4bf27.bindPopup(popup_da72a3a1def1f252dc1445dff00d4f65)
+        ;
+
+        
+    
+    
+            var circle_marker_7660c0e5ad700dd77fb18746ba3d2822 = L.circleMarker(
+                [5.456128571428569, -16.306700000000003],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_66d4bd69579f4aa6da19738d3cc4041f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ce6bef35ddbed97e1816bdb25742236 = $(`<div id="html_1ce6bef35ddbed97e1816bdb25742236" style="width: 100.0%; height: 100.0%;">NAVIRE-5703 — Radio (17217.9 km)</div>`)[0];
+                popup_66d4bd69579f4aa6da19738d3cc4041f.setContent(html_1ce6bef35ddbed97e1816bdb25742236);
+            
+        
+
+        circle_marker_7660c0e5ad700dd77fb18746ba3d2822.bindPopup(popup_66d4bd69579f4aa6da19738d3cc4041f)
+        ;
+
+        
+    
+    
+            var poly_line_9a79a4dc7301c6f6f8b1e61f83d4f817 = L.polyline(
+                [[16.51193333333333, 151.30146666666667], [5.456128571428569, -16.306700000000003]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_c72bc66a03b606eaaae792606c54fd8e = L.circleMarker(
+                [5.751722222222223, -10.001422222222224],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_3b91471041327dd2215a5cf246f3d174 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_138576cdac747401a9ad965af76df9ee = $(`<div id="html_138576cdac747401a9ad965af76df9ee" style="width: 100.0%; height: 100.0%;">NAVIRE-5682 — AIS</div>`)[0];
+                popup_3b91471041327dd2215a5cf246f3d174.setContent(html_138576cdac747401a9ad965af76df9ee);
+            
+        
+
+        circle_marker_c72bc66a03b606eaaae792606c54fd8e.bindPopup(popup_3b91471041327dd2215a5cf246f3d174)
+        ;
+
+        
+    
+    
+            var circle_marker_41fb403e830c1115eb198511bc3e23cc = L.circleMarker(
+                [-17.9926, 140.38004999999998],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_ebca001c5a969d0dbe8d965ebd4822a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8dec134a8f923268a4832bc6143b7224 = $(`<div id="html_8dec134a8f923268a4832bc6143b7224" style="width: 100.0%; height: 100.0%;">NAVIRE-5682 — Radio (16524.4 km)</div>`)[0];
+                popup_ebca001c5a969d0dbe8d965ebd4822a0.setContent(html_8dec134a8f923268a4832bc6143b7224);
+            
+        
+
+        circle_marker_41fb403e830c1115eb198511bc3e23cc.bindPopup(popup_ebca001c5a969d0dbe8d965ebd4822a0)
+        ;
+
+        
+    
+    
+            var poly_line_3a5f63417662ad2dc9a5b5387399b0e5 = L.polyline(
+                [[5.751722222222223, -10.001422222222224], [-17.9926, 140.38004999999998]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_cab7c5d7d8b5a06cefa2757d16b6b9eb = L.circleMarker(
+                [1.8094181818181816, -74.43407272727273],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_b6b254b8128aa0385525208ef9e3d4f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddf9206f1e0fdb0473f1adc7211a7045 = $(`<div id="html_ddf9206f1e0fdb0473f1adc7211a7045" style="width: 100.0%; height: 100.0%;">NAVIRE-7958 — AIS</div>`)[0];
+                popup_b6b254b8128aa0385525208ef9e3d4f1.setContent(html_ddf9206f1e0fdb0473f1adc7211a7045);
+            
+        
+
+        circle_marker_cab7c5d7d8b5a06cefa2757d16b6b9eb.bindPopup(popup_b6b254b8128aa0385525208ef9e3d4f1)
+        ;
+
+        
+    
+    
+            var circle_marker_2bac5d21af6ba421875a99e1fed3f4e0 = L.circleMarker(
+                [-12.814277777777779, 73.10154444444444],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_985e7aa8ed6e8ef975f2e2a6526af2a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52335254bf1b6b0926808bb8392b63b0 = $(`<div id="html_52335254bf1b6b0926808bb8392b63b0" style="width: 100.0%; height: 100.0%;">NAVIRE-7958 — Radio (16237.5 km)</div>`)[0];
+                popup_985e7aa8ed6e8ef975f2e2a6526af2a8.setContent(html_52335254bf1b6b0926808bb8392b63b0);
+            
+        
+
+        circle_marker_2bac5d21af6ba421875a99e1fed3f4e0.bindPopup(popup_985e7aa8ed6e8ef975f2e2a6526af2a8)
+        ;
+
+        
+    
+    
+            var poly_line_9774969d580f6099ea2977d2bef6c0ba = L.polyline(
+                [[1.8094181818181816, -74.43407272727273], [-12.814277777777779, 73.10154444444444]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_6451ca02ec1d96ce56fc52e7605427d0 = L.circleMarker(
+                [-7.89255, 74.92711249999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_5fe43207136851ffa76307d6c620a145 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be508ed505b2536ef79c3c8904b756c0 = $(`<div id="html_be508ed505b2536ef79c3c8904b756c0" style="width: 100.0%; height: 100.0%;">NAVIRE-2026 — AIS</div>`)[0];
+                popup_5fe43207136851ffa76307d6c620a145.setContent(html_be508ed505b2536ef79c3c8904b756c0);
+            
+        
+
+        circle_marker_6451ca02ec1d96ce56fc52e7605427d0.bindPopup(popup_5fe43207136851ffa76307d6c620a145)
+        ;
+
+        
+    
+    
+            var circle_marker_b45ff3f96f2103c8b472af66eff17abf = L.circleMarker(
+                [40.71585, -92.16495],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_750bb75eb180b2c6b7c404486920552c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd4615bf02e812d139df35348cbb08f7 = $(`<div id="html_fd4615bf02e812d139df35348cbb08f7" style="width: 100.0%; height: 100.0%;">NAVIRE-2026 — Radio (16148.0 km)</div>`)[0];
+                popup_750bb75eb180b2c6b7c404486920552c.setContent(html_fd4615bf02e812d139df35348cbb08f7);
+            
+        
+
+        circle_marker_b45ff3f96f2103c8b472af66eff17abf.bindPopup(popup_750bb75eb180b2c6b7c404486920552c)
+        ;
+
+        
+    
+    
+            var poly_line_f20553447f500b577b58a9c83c4dc2c1 = L.polyline(
+                [[-7.89255, 74.92711249999999], [40.71585, -92.16495]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_e134f0e42448dafd4cdaa090dc5219b3 = L.circleMarker(
+                [1.3563799999999986, 18.94770666666667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_ef7aac34ced135d4d07a559e5524801b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb29d4e7b5bf4caf855e0e1c74fdc671 = $(`<div id="html_cb29d4e7b5bf4caf855e0e1c74fdc671" style="width: 100.0%; height: 100.0%;">NAVIRE-1983 — AIS</div>`)[0];
+                popup_ef7aac34ced135d4d07a559e5524801b.setContent(html_cb29d4e7b5bf4caf855e0e1c74fdc671);
+            
+        
+
+        circle_marker_e134f0e42448dafd4cdaa090dc5219b3.bindPopup(popup_ef7aac34ced135d4d07a559e5524801b)
+        ;
+
+        
+    
+    
+            var circle_marker_2d1b0b3f0ddb962021eb42b5828b9498 = L.circleMarker(
+                [4.015566666666667, -125.80576666666666],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_1b5f111b428e8e0663de3defad8c07a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6731b69b8f1376710c53d0b8e6daabdb = $(`<div id="html_6731b69b8f1376710c53d0b8e6daabdb" style="width: 100.0%; height: 100.0%;">NAVIRE-1983 — Radio (16053.1 km)</div>`)[0];
+                popup_1b5f111b428e8e0663de3defad8c07a0.setContent(html_6731b69b8f1376710c53d0b8e6daabdb);
+            
+        
+
+        circle_marker_2d1b0b3f0ddb962021eb42b5828b9498.bindPopup(popup_1b5f111b428e8e0663de3defad8c07a0)
+        ;
+
+        
+    
+    
+            var poly_line_52158624a08704670b35ea44a5611eb5 = L.polyline(
+                [[1.3563799999999986, 18.94770666666667], [4.015566666666667, -125.80576666666666]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_72a778c5a0e2d2bb6833a63adfb6f531 = L.circleMarker(
+                [5.372436363636363, 14.263599999999997],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_e0b2841e6027f2bc16feb4036e853316 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1da7660c20d42d54525ae8211edccde5 = $(`<div id="html_1da7660c20d42d54525ae8211edccde5" style="width: 100.0%; height: 100.0%;">NAVIRE-4233 — AIS</div>`)[0];
+                popup_e0b2841e6027f2bc16feb4036e853316.setContent(html_1da7660c20d42d54525ae8211edccde5);
+            
+        
+
+        circle_marker_72a778c5a0e2d2bb6833a63adfb6f531.bindPopup(popup_e0b2841e6027f2bc16feb4036e853316)
+        ;
+
+        
+    
+    
+            var circle_marker_cc457481fef3bbfdf5139519a511e241 = L.circleMarker(
+                [31.2641, -173.8754],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_ee3e92327bb1e4e7a980341d204d8006 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dba9789a7c548f7aec6930cdd58b9c76 = $(`<div id="html_dba9789a7c548f7aec6930cdd58b9c76" style="width: 100.0%; height: 100.0%;">NAVIRE-4233 — Radio (15850.6 km)</div>`)[0];
+                popup_ee3e92327bb1e4e7a980341d204d8006.setContent(html_dba9789a7c548f7aec6930cdd58b9c76);
+            
+        
+
+        circle_marker_cc457481fef3bbfdf5139519a511e241.bindPopup(popup_ee3e92327bb1e4e7a980341d204d8006)
+        ;
+
+        
+    
+    
+            var poly_line_bd0286313a016f128eb812a4b2c2e17f = L.polyline(
+                [[5.372436363636363, 14.263599999999997], [31.2641, -173.8754]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_74f47b071a04b67928f1e9da5a3ed6a1 = L.circleMarker(
+                [13.9058, 31.29339333333333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_38712449d6d6e511121a3a74fedb3ff0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f894a5ffe9847246b75839477bfb4fda = $(`<div id="html_f894a5ffe9847246b75839477bfb4fda" style="width: 100.0%; height: 100.0%;">NAVIRE-0326 — AIS</div>`)[0];
+                popup_38712449d6d6e511121a3a74fedb3ff0.setContent(html_f894a5ffe9847246b75839477bfb4fda);
+            
+        
+
+        circle_marker_74f47b071a04b67928f1e9da5a3ed6a1.bindPopup(popup_38712449d6d6e511121a3a74fedb3ff0)
+        ;
+
+        
+    
+    
+            var circle_marker_b16ddf41a1a51dbe2d58c2dae20c282c = L.circleMarker(
+                [19.91442, -130.76736],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_152c9947a5a12a477fce6906d0a58c12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_683dbcde702abef89ade70a8075ea6e0 = $(`<div id="html_683dbcde702abef89ade70a8075ea6e0" style="width: 100.0%; height: 100.0%;">NAVIRE-0326 — Radio (15773.2 km)</div>`)[0];
+                popup_152c9947a5a12a477fce6906d0a58c12.setContent(html_683dbcde702abef89ade70a8075ea6e0);
+            
+        
+
+        circle_marker_b16ddf41a1a51dbe2d58c2dae20c282c.bindPopup(popup_152c9947a5a12a477fce6906d0a58c12)
+        ;
+
+        
+    
+    
+            var poly_line_293e7aee731f3bbf656b9444bb465414 = L.polyline(
+                [[13.9058, 31.29339333333333], [19.91442, -130.76736]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_ee4b1d1be3720ec17b8d6fd3fae0c82a = L.circleMarker(
+                [-13.51185, -22.0343],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_eda2a8f629f9be6da0e3aa0de90a63c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d724e60caab8af7f92e9df5aa772a9a = $(`<div id="html_3d724e60caab8af7f92e9df5aa772a9a" style="width: 100.0%; height: 100.0%;">NAVIRE-7967 — AIS</div>`)[0];
+                popup_eda2a8f629f9be6da0e3aa0de90a63c0.setContent(html_3d724e60caab8af7f92e9df5aa772a9a);
+            
+        
+
+        circle_marker_ee4b1d1be3720ec17b8d6fd3fae0c82a.bindPopup(popup_eda2a8f629f9be6da0e3aa0de90a63c0)
+        ;
+
+        
+    
+    
+            var circle_marker_5f6c33d8ae955a11855649c7bc253a17 = L.circleMarker(
+                [6.0468, 118.1012],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_450923e44f9a1b0d88cdac69691a580d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa2e3529581f216ed6a0b850f0c5d7df = $(`<div id="html_aa2e3529581f216ed6a0b850f0c5d7df" style="width: 100.0%; height: 100.0%;">NAVIRE-7967 — Radio (15574.6 km)</div>`)[0];
+                popup_450923e44f9a1b0d88cdac69691a580d.setContent(html_aa2e3529581f216ed6a0b850f0c5d7df);
+            
+        
+
+        circle_marker_5f6c33d8ae955a11855649c7bc253a17.bindPopup(popup_450923e44f9a1b0d88cdac69691a580d)
+        ;
+
+        
+    
+    
+            var poly_line_58f37a4d43c66bf912c06a93c9645f8b = L.polyline(
+                [[-13.51185, -22.0343], [6.0468, 118.1012]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_91926d4051e4885e7d37780c40b861d3 = L.circleMarker(
+                [12.145622222222222, 78.25143333333332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_acc60fd2f8e8f0525b7c435cd80ccab1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdd1dabd34e020b87af405126c8053e6 = $(`<div id="html_fdd1dabd34e020b87af405126c8053e6" style="width: 100.0%; height: 100.0%;">NAVIRE-8988 — AIS</div>`)[0];
+                popup_acc60fd2f8e8f0525b7c435cd80ccab1.setContent(html_fdd1dabd34e020b87af405126c8053e6);
+            
+        
+
+        circle_marker_91926d4051e4885e7d37780c40b861d3.bindPopup(popup_acc60fd2f8e8f0525b7c435cd80ccab1)
+        ;
+
+        
+    
+    
+            var circle_marker_e2520e8f783e65e50503a525ad5d4580 = L.circleMarker(
+                [-12.656033333333333, -60.37893333333334],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_81ab03a89bef51e7d9d1fdad5bae4321 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbc7e676dae568701b7b5de5e4d06cb3 = $(`<div id="html_cbc7e676dae568701b7b5de5e4d06cb3" style="width: 100.0%; height: 100.0%;">NAVIRE-8988 — Radio (15526.7 km)</div>`)[0];
+                popup_81ab03a89bef51e7d9d1fdad5bae4321.setContent(html_cbc7e676dae568701b7b5de5e4d06cb3);
+            
+        
+
+        circle_marker_e2520e8f783e65e50503a525ad5d4580.bindPopup(popup_81ab03a89bef51e7d9d1fdad5bae4321)
+        ;
+
+        
+    
+    
+            var poly_line_95d2a556bb9c8ed344caa0cc6122d397 = L.polyline(
+                [[12.145622222222222, 78.25143333333332], [-12.656033333333333, -60.37893333333334]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_cae6bf7d454af6d648b89eee6e6ffa55 = L.circleMarker(
+                [-19.18748, 43.88578],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_a79ae34a2c77e1ce9075c344d22e2678 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23b069b759e2a60279860aa3421d266d = $(`<div id="html_23b069b759e2a60279860aa3421d266d" style="width: 100.0%; height: 100.0%;">NAVIRE-9931 — AIS</div>`)[0];
+                popup_a79ae34a2c77e1ce9075c344d22e2678.setContent(html_23b069b759e2a60279860aa3421d266d);
+            
+        
+
+        circle_marker_cae6bf7d454af6d648b89eee6e6ffa55.bindPopup(popup_a79ae34a2c77e1ce9075c344d22e2678)
+        ;
+
+        
+    
+    
+            var circle_marker_2bb062b347248ebdd10c52b02645bbe7 = L.circleMarker(
+                [30.688850000000002, -91.4853],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_4687053dc010372f3a64344f9aa7d462 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc323f736c670d3561f009ef8ef29f89 = $(`<div id="html_bc323f736c670d3561f009ef8ef29f89" style="width: 100.0%; height: 100.0%;">NAVIRE-9931 — Radio (15369.7 km)</div>`)[0];
+                popup_4687053dc010372f3a64344f9aa7d462.setContent(html_bc323f736c670d3561f009ef8ef29f89);
+            
+        
+
+        circle_marker_2bb062b347248ebdd10c52b02645bbe7.bindPopup(popup_4687053dc010372f3a64344f9aa7d462)
+        ;
+
+        
+    
+    
+            var poly_line_c7bed7219da3a1d014ba9f3f1007ffeb = L.polyline(
+                [[-19.18748, 43.88578], [30.688850000000002, -91.4853]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_66f9500a8716946937c6831c16b9ee4a = L.circleMarker(
+                [-19.775164285714286, -12.393171428571431],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_215de288566e87b77eff58fa371fd103 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b70354faee2d84ca76cb2be5d93dcd8 = $(`<div id="html_0b70354faee2d84ca76cb2be5d93dcd8" style="width: 100.0%; height: 100.0%;">NAVIRE-5712 — AIS</div>`)[0];
+                popup_215de288566e87b77eff58fa371fd103.setContent(html_0b70354faee2d84ca76cb2be5d93dcd8);
+            
+        
+
+        circle_marker_66f9500a8716946937c6831c16b9ee4a.bindPopup(popup_215de288566e87b77eff58fa371fd103)
+        ;
+
+        
+    
+    
+            var circle_marker_6d2159568df0a5c6ab52a0914f002442 = L.circleMarker(
+                [58.5007, 145.9872],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_fe470d3b4ffa6c77bceb0daba657397c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_836c2dfaf6d31cc756e008de10801e09 = $(`<div id="html_836c2dfaf6d31cc756e008de10801e09" style="width: 100.0%; height: 100.0%;">NAVIRE-5712 — Radio (15368.0 km)</div>`)[0];
+                popup_fe470d3b4ffa6c77bceb0daba657397c.setContent(html_836c2dfaf6d31cc756e008de10801e09);
+            
+        
+
+        circle_marker_6d2159568df0a5c6ab52a0914f002442.bindPopup(popup_fe470d3b4ffa6c77bceb0daba657397c)
+        ;
+
+        
+    
+    
+            var poly_line_f86fa12c9287d7abad828483de61037d = L.polyline(
+                [[-19.775164285714286, -12.393171428571431], [58.5007, 145.9872]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_c3282c3ef06c9f1e423cac913ff79f8b = L.circleMarker(
+                [-5.129623076923077, 36.445676923076924],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_04d2f940df5a8df7daa2ed87366b64be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7706a49b6f8a68a9db5a40366f8ef14 = $(`<div id="html_b7706a49b6f8a68a9db5a40366f8ef14" style="width: 100.0%; height: 100.0%;">NAVIRE-3378 — AIS</div>`)[0];
+                popup_04d2f940df5a8df7daa2ed87366b64be.setContent(html_b7706a49b6f8a68a9db5a40366f8ef14);
+            
+        
+
+        circle_marker_c3282c3ef06c9f1e423cac913ff79f8b.bindPopup(popup_04d2f940df5a8df7daa2ed87366b64be)
+        ;
+
+        
+    
+    
+            var circle_marker_13dbee8363992f18c4f962b167efd381 = L.circleMarker(
+                [-38.3117, -142.3549],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_65f332e5dfb4a7fc7cc4b32e16063025 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be0f523dabfa64a93b419f0b7a0ba950 = $(`<div id="html_be0f523dabfa64a93b419f0b7a0ba950" style="width: 100.0%; height: 100.0%;">NAVIRE-3378 — Radio (15183.0 km)</div>`)[0];
+                popup_65f332e5dfb4a7fc7cc4b32e16063025.setContent(html_be0f523dabfa64a93b419f0b7a0ba950);
+            
+        
+
+        circle_marker_13dbee8363992f18c4f962b167efd381.bindPopup(popup_65f332e5dfb4a7fc7cc4b32e16063025)
+        ;
+
+        
+    
+    
+            var poly_line_b7f980eb3258aea0529e32e61f1311d8 = L.polyline(
+                [[-5.129623076923077, 36.445676923076924], [-38.3117, -142.3549]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_57e52f6ae778936c1526b830ac515ba5 = L.circleMarker(
+                [6.47154, -48.33016],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_98bddb5ba55cfd5c33de2fc32073fdf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7d7c8d3f3b4c5cfc0e51622f97dff7e = $(`<div id="html_f7d7c8d3f3b4c5cfc0e51622f97dff7e" style="width: 100.0%; height: 100.0%;">NAVIRE-1130 — AIS</div>`)[0];
+                popup_98bddb5ba55cfd5c33de2fc32073fdf5.setContent(html_f7d7c8d3f3b4c5cfc0e51622f97dff7e);
+            
+        
+
+        circle_marker_57e52f6ae778936c1526b830ac515ba5.bindPopup(popup_98bddb5ba55cfd5c33de2fc32073fdf5)
+        ;
+
+        
+    
+    
+            var circle_marker_cb5c0f3aa4422ba1ce32ee2090c800ab = L.circleMarker(
+                [9.265933333333335, 90.97396666666667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_8ec1afb9da5d6729297920f4f3cb8e29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6125adc859cfbacce79c30add2ffbd29 = $(`<div id="html_6125adc859cfbacce79c30add2ffbd29" style="width: 100.0%; height: 100.0%;">NAVIRE-1130 — Radio (15178.1 km)</div>`)[0];
+                popup_8ec1afb9da5d6729297920f4f3cb8e29.setContent(html_6125adc859cfbacce79c30add2ffbd29);
+            
+        
+
+        circle_marker_cb5c0f3aa4422ba1ce32ee2090c800ab.bindPopup(popup_8ec1afb9da5d6729297920f4f3cb8e29)
+        ;
+
+        
+    
+    
+            var poly_line_ea15629a7774f98bc044ecfb0b09da95 = L.polyline(
+                [[6.47154, -48.33016], [9.265933333333335, 90.97396666666667]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_e6ef47ffa2f440ac990270bc5b6894cb = L.circleMarker(
+                [12.863169230769232, 11.874030769230767],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_7fe86ef470f955db5f1139cd0509471f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a73872345c3a3adc6c469c800e033c54 = $(`<div id="html_a73872345c3a3adc6c469c800e033c54" style="width: 100.0%; height: 100.0%;">NAVIRE-5433 — AIS</div>`)[0];
+                popup_7fe86ef470f955db5f1139cd0509471f.setContent(html_a73872345c3a3adc6c469c800e033c54);
+            
+        
+
+        circle_marker_e6ef47ffa2f440ac990270bc5b6894cb.bindPopup(popup_7fe86ef470f955db5f1139cd0509471f)
+        ;
+
+        
+    
+    
+            var circle_marker_6947eb547816b3e44695615cb7a774b0 = L.circleMarker(
+                [-13.2433, 146.1069],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_6aae1412720eb58fb12317e809eba336 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f96fcbe7f45c730dc70e27b25c6ca088 = $(`<div id="html_f96fcbe7f45c730dc70e27b25c6ca088" style="width: 100.0%; height: 100.0%;">NAVIRE-5433 — Radio (15064.5 km)</div>`)[0];
+                popup_6aae1412720eb58fb12317e809eba336.setContent(html_f96fcbe7f45c730dc70e27b25c6ca088);
+            
+        
+
+        circle_marker_6947eb547816b3e44695615cb7a774b0.bindPopup(popup_6aae1412720eb58fb12317e809eba336)
+        ;
+
+        
+    
+    
+            var poly_line_a61b076a3f3141a13b96f82057a905bd = L.polyline(
+                [[12.863169230769232, 11.874030769230767], [-13.2433, 146.1069]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_ef40c5465a496eb75cdee4a1d43c4bfe = L.circleMarker(
+                [8.604099999999999, -55.00010999999999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_2463110451ba4a070512b5db226e4aa5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b797ff80f6974b28d8e0249e7e57627c = $(`<div id="html_b797ff80f6974b28d8e0249e7e57627c" style="width: 100.0%; height: 100.0%;">NAVIRE-6642 — AIS</div>`)[0];
+                popup_2463110451ba4a070512b5db226e4aa5.setContent(html_b797ff80f6974b28d8e0249e7e57627c);
+            
+        
+
+        circle_marker_ef40c5465a496eb75cdee4a1d43c4bfe.bindPopup(popup_2463110451ba4a070512b5db226e4aa5)
+        ;
+
+        
+    
+    
+            var circle_marker_f3cec8790dc1c1fa8ed626e27e34a0a8 = L.circleMarker(
+                [36.9241, 122.3845],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_f2b2b535095dc2112d5ab9796ca31997 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8974b72abb49160ac8efc6ce189c92f = $(`<div id="html_f8974b72abb49160ac8efc6ce189c92f" style="width: 100.0%; height: 100.0%;">NAVIRE-6642 — Radio (14945.2 km)</div>`)[0];
+                popup_f2b2b535095dc2112d5ab9796ca31997.setContent(html_f8974b72abb49160ac8efc6ce189c92f);
+            
+        
+
+        circle_marker_f3cec8790dc1c1fa8ed626e27e34a0a8.bindPopup(popup_f2b2b535095dc2112d5ab9796ca31997)
+        ;
+
+        
+    
+    
+            var poly_line_530c03c6b910380bfae8b508f1327ae6 = L.polyline(
+                [[8.604099999999999, -55.00010999999999], [36.9241, 122.3845]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_f99f737704098e57ebf974c3792ca957 = L.circleMarker(
+                [-7.341560000000001, -88.2941],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_a65944336f190815b091aa5edfedf27b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05898865daeeacfc534257d010c35c96 = $(`<div id="html_05898865daeeacfc534257d010c35c96" style="width: 100.0%; height: 100.0%;">NAVIRE-0104 — AIS</div>`)[0];
+                popup_a65944336f190815b091aa5edfedf27b.setContent(html_05898865daeeacfc534257d010c35c96);
+            
+        
+
+        circle_marker_f99f737704098e57ebf974c3792ca957.bindPopup(popup_a65944336f190815b091aa5edfedf27b)
+        ;
+
+        
+    
+    
+            var circle_marker_0275c734db5b2fc35752e4ffb0c56a18 = L.circleMarker(
+                [-36.437, 107.69725],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_655bd161c8c5f96bda16b4f53822a167 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2d3b8ce5e905b40279fd52a6b8aaa4f = $(`<div id="html_a2d3b8ce5e905b40279fd52a6b8aaa4f" style="width: 100.0%; height: 100.0%;">NAVIRE-0104 — Radio (14869.1 km)</div>`)[0];
+                popup_655bd161c8c5f96bda16b4f53822a167.setContent(html_a2d3b8ce5e905b40279fd52a6b8aaa4f);
+            
+        
+
+        circle_marker_0275c734db5b2fc35752e4ffb0c56a18.bindPopup(popup_655bd161c8c5f96bda16b4f53822a167)
+        ;
+
+        
+    
+    
+            var poly_line_a6650910bea25aa0c81c2cc2813ed831 = L.polyline(
+                [[-7.341560000000001, -88.2941], [-36.437, 107.69725]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_c88cdd6db7c290d15a897cf398d73dba = L.circleMarker(
+                [16.830099999999998, 71.06882142857143],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_e441b498cde80e34f30653da3ed57c8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51b987f1c86c31320a720f81c0e45767 = $(`<div id="html_51b987f1c86c31320a720f81c0e45767" style="width: 100.0%; height: 100.0%;">NAVIRE-8097 — AIS</div>`)[0];
+                popup_e441b498cde80e34f30653da3ed57c8b.setContent(html_51b987f1c86c31320a720f81c0e45767);
+            
+        
+
+        circle_marker_c88cdd6db7c290d15a897cf398d73dba.bindPopup(popup_e441b498cde80e34f30653da3ed57c8b)
+        ;
+
+        
+    
+    
+            var circle_marker_5801bbaf417de7517ebcf55ec5e1cc77 = L.circleMarker(
+                [-3.3207400000000007, -63.07732],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_4a31a7b0e6615424940aadc790c11f2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74e32d1be01abe0c958fd975ad3dcbaf = $(`<div id="html_74e32d1be01abe0c958fd975ad3dcbaf" style="width: 100.0%; height: 100.0%;">NAVIRE-8097 — Radio (14791.6 km)</div>`)[0];
+                popup_4a31a7b0e6615424940aadc790c11f2b.setContent(html_74e32d1be01abe0c958fd975ad3dcbaf);
+            
+        
+
+        circle_marker_5801bbaf417de7517ebcf55ec5e1cc77.bindPopup(popup_4a31a7b0e6615424940aadc790c11f2b)
+        ;
+
+        
+    
+    
+            var poly_line_fa050f0a6312f1714086280126d3d2c2 = L.polyline(
+                [[16.830099999999998, 71.06882142857143], [-3.3207400000000007, -63.07732]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_3d2197f025be66e7bc9bc569eb7468ab = L.circleMarker(
+                [-11.491550000000002, -108.78493333333334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_bb71d7e8bf9002e5a7219e1ebb2827fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcf2d5e9832235b3fe4c6bd75f8c4024 = $(`<div id="html_fcf2d5e9832235b3fe4c6bd75f8c4024" style="width: 100.0%; height: 100.0%;">NAVIRE-8401 — AIS</div>`)[0];
+                popup_bb71d7e8bf9002e5a7219e1ebb2827fe.setContent(html_fcf2d5e9832235b3fe4c6bd75f8c4024);
+            
+        
+
+        circle_marker_3d2197f025be66e7bc9bc569eb7468ab.bindPopup(popup_bb71d7e8bf9002e5a7219e1ebb2827fe)
+        ;
+
+        
+    
+    
+            var circle_marker_84add9507f0eb4efaf8936a2c3aed730 = L.circleMarker(
+                [-21.27102, 36.68066],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_679563ae6bb503bd58b29a4f6b0ee5c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b9cdd5506e29c8dcc8b8b2b3251b890 = $(`<div id="html_5b9cdd5506e29c8dcc8b8b2b3251b890" style="width: 100.0%; height: 100.0%;">NAVIRE-8401 — Radio (14771.6 km)</div>`)[0];
+                popup_679563ae6bb503bd58b29a4f6b0ee5c1.setContent(html_5b9cdd5506e29c8dcc8b8b2b3251b890);
+            
+        
+
+        circle_marker_84add9507f0eb4efaf8936a2c3aed730.bindPopup(popup_679563ae6bb503bd58b29a4f6b0ee5c1)
+        ;
+
+        
+    
+    
+            var poly_line_5186a6ef6abb377f0ebc20ab508d1cd9 = L.polyline(
+                [[-11.491550000000002, -108.78493333333334], [-21.27102, 36.68066]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_ef8dc570dd1b915ab5e1098008e0ea1b = L.circleMarker(
+                [-14.152228571428571, 8.27537142857143],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_9c54cadd0577ad1cfdb20406a21d6fc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_898c40a01958cec32a37b4bab08b453f = $(`<div id="html_898c40a01958cec32a37b4bab08b453f" style="width: 100.0%; height: 100.0%;">NAVIRE-6868 — AIS</div>`)[0];
+                popup_9c54cadd0577ad1cfdb20406a21d6fc7.setContent(html_898c40a01958cec32a37b4bab08b453f);
+            
+        
+
+        circle_marker_ef8dc570dd1b915ab5e1098008e0ea1b.bindPopup(popup_9c54cadd0577ad1cfdb20406a21d6fc7)
+        ;
+
+        
+    
+    
+            var circle_marker_abd69d9b8b7143f656e0bdb241403101 = L.circleMarker(
+                [-12.363633333333333, -130.74426666666668],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_2b6ae4b215ad3e5077bba7ece69d25b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d2bd38b00cc8127e7b5eb1eff990c94 = $(`<div id="html_6d2bd38b00cc8127e7b5eb1eff990c94" style="width: 100.0%; height: 100.0%;">NAVIRE-6868 — Radio (14622.8 km)</div>`)[0];
+                popup_2b6ae4b215ad3e5077bba7ece69d25b9.setContent(html_6d2bd38b00cc8127e7b5eb1eff990c94);
+            
+        
+
+        circle_marker_abd69d9b8b7143f656e0bdb241403101.bindPopup(popup_2b6ae4b215ad3e5077bba7ece69d25b9)
+        ;
+
+        
+    
+    
+            var poly_line_9eac88c47b19bfe29663b46677cea75e = L.polyline(
+                [[-14.152228571428571, 8.27537142857143], [-12.363633333333333, -130.74426666666668]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_75bc73c5b4bc2bf01b2bc1f21a0bc592 = L.circleMarker(
+                [7.2659249999999975, -31.861525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_9918450f28b707fae7694954d41cb0ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ba7d87329109d51b8d7c37920cc31d3 = $(`<div id="html_6ba7d87329109d51b8d7c37920cc31d3" style="width: 100.0%; height: 100.0%;">NAVIRE-6352 — AIS</div>`)[0];
+                popup_9918450f28b707fae7694954d41cb0ee.setContent(html_6ba7d87329109d51b8d7c37920cc31d3);
+            
+        
+
+        circle_marker_75bc73c5b4bc2bf01b2bc1f21a0bc592.bindPopup(popup_9918450f28b707fae7694954d41cb0ee)
+        ;
+
+        
+    
+    
+            var circle_marker_922493311f44128453316b8f18b2ff0c = L.circleMarker(
+                [-15.150033333333333, 97.5175],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_4b366034df8153bec7c66dc2adbb20ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_393050a21f620c1625e710844234909f = $(`<div id="html_393050a21f620c1625e710844234909f" style="width: 100.0%; height: 100.0%;">NAVIRE-6352 — Radio (14436.6 km)</div>`)[0];
+                popup_4b366034df8153bec7c66dc2adbb20ec.setContent(html_393050a21f620c1625e710844234909f);
+            
+        
+
+        circle_marker_922493311f44128453316b8f18b2ff0c.bindPopup(popup_4b366034df8153bec7c66dc2adbb20ec)
+        ;
+
+        
+    
+    
+            var poly_line_cae08cc3fda4602dbc1945979148143e = L.polyline(
+                [[7.2659249999999975, -31.861525], [-15.150033333333333, 97.5175]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_5d2af63361d1e30775dbdf31298086ae = L.circleMarker(
+                [-17.13453636363636, 40.07170909090909],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_bbac3a5bd4536b3c57bcb9fc99f4a8a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7ac92c8272c952773c56ff1507c90c3 = $(`<div id="html_e7ac92c8272c952773c56ff1507c90c3" style="width: 100.0%; height: 100.0%;">NAVIRE-9635 — AIS</div>`)[0];
+                popup_bbac3a5bd4536b3c57bcb9fc99f4a8a7.setContent(html_e7ac92c8272c952773c56ff1507c90c3);
+            
+        
+
+        circle_marker_5d2af63361d1e30775dbdf31298086ae.bindPopup(popup_bbac3a5bd4536b3c57bcb9fc99f4a8a7)
+        ;
+
+        
+    
+    
+            var circle_marker_67823a22d8940aa7f5aa5d16a5a656ec = L.circleMarker(
+                [17.542125, -86.790025],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_587ac18723b59d89bfb5dff753bf16fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f728578ad0eca63657ed709c4b2237c8 = $(`<div id="html_f728578ad0eca63657ed709c4b2237c8" style="width: 100.0%; height: 100.0%;">NAVIRE-9635 — Radio (14394.2 km)</div>`)[0];
+                popup_587ac18723b59d89bfb5dff753bf16fe.setContent(html_f728578ad0eca63657ed709c4b2237c8);
+            
+        
+
+        circle_marker_67823a22d8940aa7f5aa5d16a5a656ec.bindPopup(popup_587ac18723b59d89bfb5dff753bf16fe)
+        ;
+
+        
+    
+    
+            var poly_line_7a70d416c2a8b0f236c15a2844163337 = L.polyline(
+                [[-17.13453636363636, 40.07170909090909], [17.542125, -86.790025]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_4b773632589752c0e3443c3dc9114217 = L.circleMarker(
+                [14.10547777777778, -65.15010000000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_e7a1c6f3760cc57882aa6e7a6a308036 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10a6c24ed6548ea6e1da65bbf768aee2 = $(`<div id="html_10a6c24ed6548ea6e1da65bbf768aee2" style="width: 100.0%; height: 100.0%;">NAVIRE-3430 — AIS</div>`)[0];
+                popup_e7a1c6f3760cc57882aa6e7a6a308036.setContent(html_10a6c24ed6548ea6e1da65bbf768aee2);
+            
+        
+
+        circle_marker_4b773632589752c0e3443c3dc9114217.bindPopup(popup_e7a1c6f3760cc57882aa6e7a6a308036)
+        ;
+
+        
+    
+    
+            var circle_marker_ed40e49f77a5f59ba991a446fb3c6932 = L.circleMarker(
+                [17.906299999999998, 74.43274],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_fb48a2f29151c4b3d5bd67561a4bf13d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6e681073ae5843a1da3035019e64e88 = $(`<div id="html_b6e681073ae5843a1da3035019e64e88" style="width: 100.0%; height: 100.0%;">NAVIRE-3430 — Radio (14330.8 km)</div>`)[0];
+                popup_fb48a2f29151c4b3d5bd67561a4bf13d.setContent(html_b6e681073ae5843a1da3035019e64e88);
+            
+        
+
+        circle_marker_ed40e49f77a5f59ba991a446fb3c6932.bindPopup(popup_fb48a2f29151c4b3d5bd67561a4bf13d)
+        ;
+
+        
+    
+    
+            var poly_line_bf9afea8e9ad9ec4520d0e879dcb8589 = L.polyline(
+                [[14.10547777777778, -65.15010000000001], [17.906299999999998, 74.43274]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_a46d2057b3e0174b7d11a671d23a3dd8 = L.circleMarker(
+                [16.8804375, 60.0323875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_7c7b217d49cc206b6661b47c508062a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_272250de8236613fe96031a631581bc8 = $(`<div id="html_272250de8236613fe96031a631581bc8" style="width: 100.0%; height: 100.0%;">NAVIRE-4149 — AIS</div>`)[0];
+                popup_7c7b217d49cc206b6661b47c508062a7.setContent(html_272250de8236613fe96031a631581bc8);
+            
+        
+
+        circle_marker_a46d2057b3e0174b7d11a671d23a3dd8.bindPopup(popup_7c7b217d49cc206b6661b47c508062a7)
+        ;
+
+        
+    
+    
+            var circle_marker_e48c41fe4ba09574b101f45c6bdb6779 = L.circleMarker(
+                [1.8875399999999984, -71.38068],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_b54985d193f823a4878d827069db5662 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b57b1a924670cb6b188749c7d610dce6 = $(`<div id="html_b57b1a924670cb6b188749c7d610dce6" style="width: 100.0%; height: 100.0%;">NAVIRE-4149 — Radio (14293.1 km)</div>`)[0];
+                popup_b54985d193f823a4878d827069db5662.setContent(html_b57b1a924670cb6b188749c7d610dce6);
+            
+        
+
+        circle_marker_e48c41fe4ba09574b101f45c6bdb6779.bindPopup(popup_b54985d193f823a4878d827069db5662)
+        ;
+
+        
+    
+    
+            var poly_line_691b4fecff65dc5510f09efca1caaa27 = L.polyline(
+                [[16.8804375, 60.0323875], [1.8875399999999984, -71.38068]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_bb06b5cd1101ecd6d00edcb2d12ba549 = L.circleMarker(
+                [-6.896199999999999, -48.7928625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_cb445cac1475b2daad2184f25a5e99a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f779f441edf7455978a99826f8e3b2d = $(`<div id="html_8f779f441edf7455978a99826f8e3b2d" style="width: 100.0%; height: 100.0%;">NAVIRE-8707 — AIS</div>`)[0];
+                popup_cb445cac1475b2daad2184f25a5e99a7.setContent(html_8f779f441edf7455978a99826f8e3b2d);
+            
+        
+
+        circle_marker_bb06b5cd1101ecd6d00edcb2d12ba549.bindPopup(popup_cb445cac1475b2daad2184f25a5e99a7)
+        ;
+
+        
+    
+    
+            var circle_marker_90bf6e664f6fff6c5a1a0d4563835222 = L.circleMarker(
+                [-6.594525000000001, 81.3306],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_944f09667b7cb7bee5022baaae9f2bcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_280070254475df419a9d84abb645fb33 = $(`<div id="html_280070254475df419a9d84abb645fb33" style="width: 100.0%; height: 100.0%;">NAVIRE-8707 — Radio (14282.3 km)</div>`)[0];
+                popup_944f09667b7cb7bee5022baaae9f2bcc.setContent(html_280070254475df419a9d84abb645fb33);
+            
+        
+
+        circle_marker_90bf6e664f6fff6c5a1a0d4563835222.bindPopup(popup_944f09667b7cb7bee5022baaae9f2bcc)
+        ;
+
+        
+    
+    
+            var poly_line_098d3d0b24ab126d43f9163ba3b59afd = L.polyline(
+                [[-6.896199999999999, -48.7928625], [-6.594525000000001, 81.3306]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_71849b5fa656bbf1b1d0eaa7e7226132 = L.circleMarker(
+                [1.3937500000000007, 69.98395],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_4139352a84d0707c8433f6dfe50a651d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19ed12bf116d427991b8d774accf4ea7 = $(`<div id="html_19ed12bf116d427991b8d774accf4ea7" style="width: 100.0%; height: 100.0%;">NAVIRE-1895 — AIS</div>`)[0];
+                popup_4139352a84d0707c8433f6dfe50a651d.setContent(html_19ed12bf116d427991b8d774accf4ea7);
+            
+        
+
+        circle_marker_71849b5fa656bbf1b1d0eaa7e7226132.bindPopup(popup_4139352a84d0707c8433f6dfe50a651d)
+        ;
+
+        
+    
+    
+            var circle_marker_368904d69dd7bdc6c4c80b78013ed761 = L.circleMarker(
+                [-7.7835, -55.805475],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_6e3328672273df7ad6c870f357fa0026 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fc3e3cde303bf8504f24d670df969b0 = $(`<div id="html_9fc3e3cde303bf8504f24d670df969b0" style="width: 100.0%; height: 100.0%;">NAVIRE-1895 — Radio (13969.4 km)</div>`)[0];
+                popup_6e3328672273df7ad6c870f357fa0026.setContent(html_9fc3e3cde303bf8504f24d670df969b0);
+            
+        
+
+        circle_marker_368904d69dd7bdc6c4c80b78013ed761.bindPopup(popup_6e3328672273df7ad6c870f357fa0026)
+        ;
+
+        
+    
+    
+            var poly_line_826ab7a952c4bf3985fc38797fa07e16 = L.polyline(
+                [[1.3937500000000007, 69.98395], [-7.7835, -55.805475]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_9576af8d6d41a289e9e4269c051f324c = L.circleMarker(
+                [45.633655555555556, 37.584466666666664],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_9eebbe7a15b1d732c20f6debe392e372 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7012efd72fe0a2aadc5c80486ba9a496 = $(`<div id="html_7012efd72fe0a2aadc5c80486ba9a496" style="width: 100.0%; height: 100.0%;">NAVIRE-3860 — AIS</div>`)[0];
+                popup_9eebbe7a15b1d732c20f6debe392e372.setContent(html_7012efd72fe0a2aadc5c80486ba9a496);
+            
+        
+
+        circle_marker_9576af8d6d41a289e9e4269c051f324c.bindPopup(popup_9eebbe7a15b1d732c20f6debe392e372)
+        ;
+
+        
+    
+    
+            var circle_marker_eced383edaf83f205ee371d7a8a228b4 = L.circleMarker(
+                [8.840439999999997, -139.03928000000002],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_614bb4b6642f561c47eee541e5e7036c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c33826fe350eb8ec0a4c7c129f1a7584 = $(`<div id="html_c33826fe350eb8ec0a4c7c129f1a7584" style="width: 100.0%; height: 100.0%;">NAVIRE-3860 — Radio (13948.5 km)</div>`)[0];
+                popup_614bb4b6642f561c47eee541e5e7036c.setContent(html_c33826fe350eb8ec0a4c7c129f1a7584);
+            
+        
+
+        circle_marker_eced383edaf83f205ee371d7a8a228b4.bindPopup(popup_614bb4b6642f561c47eee541e5e7036c)
+        ;
+
+        
+    
+    
+            var poly_line_3b40e5b593bf1183eeca762ae70e3c05 = L.polyline(
+                [[45.633655555555556, 37.584466666666664], [8.840439999999997, -139.03928000000002]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_2e25909275848c5d51e32d524f1932e2 = L.circleMarker(
+                [43.278625, -35.380375],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_bdfbbbd83eaee0cef44e8f4b88a5bb90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd65c8dfeaa476242d4c9f2c6e442933 = $(`<div id="html_fd65c8dfeaa476242d4c9f2c6e442933" style="width: 100.0%; height: 100.0%;">NAVIRE-1946 — AIS</div>`)[0];
+                popup_bdfbbbd83eaee0cef44e8f4b88a5bb90.setContent(html_fd65c8dfeaa476242d4c9f2c6e442933);
+            
+        
+
+        circle_marker_2e25909275848c5d51e32d524f1932e2.bindPopup(popup_bdfbbbd83eaee0cef44e8f4b88a5bb90)
+        ;
+
+        
+    
+    
+            var circle_marker_44efe1b321a0c6e74d476159825cd4fe = L.circleMarker(
+                [10.490575, 134.387575],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_85848916a19c11dc565b9fc3cc47105e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_580c7e07f5272e8c82781d18ce44ed39 = $(`<div id="html_580c7e07f5272e8c82781d18ce44ed39" style="width: 100.0%; height: 100.0%;">NAVIRE-1946 — Radio (13946.8 km)</div>`)[0];
+                popup_85848916a19c11dc565b9fc3cc47105e.setContent(html_580c7e07f5272e8c82781d18ce44ed39);
+            
+        
+
+        circle_marker_44efe1b321a0c6e74d476159825cd4fe.bindPopup(popup_85848916a19c11dc565b9fc3cc47105e)
+        ;
+
+        
+    
+    
+            var poly_line_852135103047b54a5114c8b1edb160ed = L.polyline(
+                [[43.278625, -35.380375], [10.490575, 134.387575]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_cba97589555ea823e9ca097d24433155 = L.circleMarker(
+                [-33.85603333333333, -21.97727777777778],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_7d96d12c2f20da12ea03ac325519da62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9641835bec041d9018e89672d42445dd = $(`<div id="html_9641835bec041d9018e89672d42445dd" style="width: 100.0%; height: 100.0%;">NAVIRE-4626 — AIS</div>`)[0];
+                popup_7d96d12c2f20da12ea03ac325519da62.setContent(html_9641835bec041d9018e89672d42445dd);
+            
+        
+
+        circle_marker_cba97589555ea823e9ca097d24433155.bindPopup(popup_7d96d12c2f20da12ea03ac325519da62)
+        ;
+
+        
+    
+    
+            var circle_marker_823fa50f4fee8066372648a6b29abee2 = L.circleMarker(
+                [-1.915466666666667, -157.63223333333335],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_d6e893b3539e1dedaa756ff55a6edf14 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dc7f473e5272e662f1e3026295b2de0 = $(`<div id="html_0dc7f473e5272e662f1e3026295b2de0" style="width: 100.0%; height: 100.0%;">NAVIRE-4626 — Radio (13909.9 km)</div>`)[0];
+                popup_d6e893b3539e1dedaa756ff55a6edf14.setContent(html_0dc7f473e5272e662f1e3026295b2de0);
+            
+        
+
+        circle_marker_823fa50f4fee8066372648a6b29abee2.bindPopup(popup_d6e893b3539e1dedaa756ff55a6edf14)
+        ;
+
+        
+    
+    
+            var poly_line_d1a8eaf97e525da46f7e34136854486f = L.polyline(
+                [[-33.85603333333333, -21.97727777777778], [-1.915466666666667, -157.63223333333335]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_fce16aa1921087c23499fae44b5fa0f8 = L.circleMarker(
+                [-18.413742857142857, -21.053885714285713],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_7b25bc7fad3a39efa2f2b9279627cfa7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02cd8f480ac8a505dbb241dc101e5a55 = $(`<div id="html_02cd8f480ac8a505dbb241dc101e5a55" style="width: 100.0%; height: 100.0%;">NAVIRE-8169 — AIS</div>`)[0];
+                popup_7b25bc7fad3a39efa2f2b9279627cfa7.setContent(html_02cd8f480ac8a505dbb241dc101e5a55);
+            
+        
+
+        circle_marker_fce16aa1921087c23499fae44b5fa0f8.bindPopup(popup_7b25bc7fad3a39efa2f2b9279627cfa7)
+        ;
+
+        
+    
+    
+            var circle_marker_1d9d32c181f93ead25432b1caa4d525b = L.circleMarker(
+                [23.39773333333333, 98.83906666666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_90654ae21ca5c4ec4011219be1670b99 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29bdfb7084757aa40db48d94293661e3 = $(`<div id="html_29bdfb7084757aa40db48d94293661e3" style="width: 100.0%; height: 100.0%;">NAVIRE-8169 — Radio (13789.9 km)</div>`)[0];
+                popup_90654ae21ca5c4ec4011219be1670b99.setContent(html_29bdfb7084757aa40db48d94293661e3);
+            
+        
+
+        circle_marker_1d9d32c181f93ead25432b1caa4d525b.bindPopup(popup_90654ae21ca5c4ec4011219be1670b99)
+        ;
+
+        
+    
+    
+            var poly_line_61f4e47e5412765dd46ef86c4b7ac918 = L.polyline(
+                [[-18.413742857142857, -21.053885714285713], [23.39773333333333, 98.83906666666667]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_d728eb9f5a62e21c08c9316a83f31209 = L.circleMarker(
+                [-4.106369999999999, 6.175690000000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_cd67390d4fc7baacd30e32a11e703340 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_427d833752df1b4ad5af900b0cc84da4 = $(`<div id="html_427d833752df1b4ad5af900b0cc84da4" style="width: 100.0%; height: 100.0%;">NAVIRE-1997 — AIS</div>`)[0];
+                popup_cd67390d4fc7baacd30e32a11e703340.setContent(html_427d833752df1b4ad5af900b0cc84da4);
+            
+        
+
+        circle_marker_d728eb9f5a62e21c08c9316a83f31209.bindPopup(popup_cd67390d4fc7baacd30e32a11e703340)
+        ;
+
+        
+    
+    
+            var circle_marker_348469fb5d617e22eb38156738dd9de3 = L.circleMarker(
+                [6.458933333333334, -116.31443333333334],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_bf00b264b857e95d6f387a0f7f96ed3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1165596b84b5077574c18634d7885e02 = $(`<div id="html_1165596b84b5077574c18634d7885e02" style="width: 100.0%; height: 100.0%;">NAVIRE-1997 — Radio (13645.1 km)</div>`)[0];
+                popup_bf00b264b857e95d6f387a0f7f96ed3b.setContent(html_1165596b84b5077574c18634d7885e02);
+            
+        
+
+        circle_marker_348469fb5d617e22eb38156738dd9de3.bindPopup(popup_bf00b264b857e95d6f387a0f7f96ed3b)
+        ;
+
+        
+    
+    
+            var poly_line_620c908c9b6a56975bfad44a94b85699 = L.polyline(
+                [[-4.106369999999999, 6.175690000000001], [6.458933333333334, -116.31443333333334]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_b925c03363b5b4e3582d0a02837a33d1 = L.circleMarker(
+                [17.8645, 22.006587500000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_7cd7ed9acea1ff06cd397cf59502ce2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_57a545e4c3283a6f1f73b4046ec712c1 = $(`<div id="html_57a545e4c3283a6f1f73b4046ec712c1" style="width: 100.0%; height: 100.0%;">NAVIRE-7906 — AIS</div>`)[0];
+                popup_7cd7ed9acea1ff06cd397cf59502ce2d.setContent(html_57a545e4c3283a6f1f73b4046ec712c1);
+            
+        
+
+        circle_marker_b925c03363b5b4e3582d0a02837a33d1.bindPopup(popup_7cd7ed9acea1ff06cd397cf59502ce2d)
+        ;
+
+        
+    
+    
+            var circle_marker_9e2f9f2fd5aa63acc94a561e481fe38d = L.circleMarker(
+                [38.8773, -145.2109],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_bf927036f27f4512a40830ed529bb530 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b673cd055d03f63b31e584a412bd8adc = $(`<div id="html_b673cd055d03f63b31e584a412bd8adc" style="width: 100.0%; height: 100.0%;">NAVIRE-7906 — Radio (13566.8 km)</div>`)[0];
+                popup_bf927036f27f4512a40830ed529bb530.setContent(html_b673cd055d03f63b31e584a412bd8adc);
+            
+        
+
+        circle_marker_9e2f9f2fd5aa63acc94a561e481fe38d.bindPopup(popup_bf927036f27f4512a40830ed529bb530)
+        ;
+
+        
+    
+    
+            var poly_line_550600a705cccf39fbfc72e5ca4bfc0b = L.polyline(
+                [[17.8645, 22.006587500000002], [38.8773, -145.2109]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_e1ac7d50b35396d1cf928da883a0171d = L.circleMarker(
+                [-22.556649999999998, -38.1871],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_878f8a7bb995dabe45cfb8e8ccb9ead0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c61a0d6c1a2279fed8cdd5878852c05 = $(`<div id="html_5c61a0d6c1a2279fed8cdd5878852c05" style="width: 100.0%; height: 100.0%;">NAVIRE-8305 — AIS</div>`)[0];
+                popup_878f8a7bb995dabe45cfb8e8ccb9ead0.setContent(html_5c61a0d6c1a2279fed8cdd5878852c05);
+            
+        
+
+        circle_marker_e1ac7d50b35396d1cf928da883a0171d.bindPopup(popup_878f8a7bb995dabe45cfb8e8ccb9ead0)
+        ;
+
+        
+    
+    
+            var circle_marker_3c2407ff43aec0d7e912b7b9895f2539 = L.circleMarker(
+                [6.192274999999999, 83.611425],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_8954bde2078f3fc082b06f2ca97f1f0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20b3f16637476e47139a61625220feb6 = $(`<div id="html_20b3f16637476e47139a61625220feb6" style="width: 100.0%; height: 100.0%;">NAVIRE-8305 — Radio (13530.1 km)</div>`)[0];
+                popup_8954bde2078f3fc082b06f2ca97f1f0d.setContent(html_20b3f16637476e47139a61625220feb6);
+            
+        
+
+        circle_marker_3c2407ff43aec0d7e912b7b9895f2539.bindPopup(popup_8954bde2078f3fc082b06f2ca97f1f0d)
+        ;
+
+        
+    
+    
+            var poly_line_be32a246c867e58fde54ecb9df68f209 = L.polyline(
+                [[-22.556649999999998, -38.1871], [6.192274999999999, 83.611425]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_61a227dc1ceec5a7422274816156e68b = L.circleMarker(
+                [-23.00517142857143, -21.99101428571429],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_43b6a8604bc66d4013d21c2e45183181 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c82edaadc54265db593668776dad42af = $(`<div id="html_c82edaadc54265db593668776dad42af" style="width: 100.0%; height: 100.0%;">NAVIRE-6233 — AIS</div>`)[0];
+                popup_43b6a8604bc66d4013d21c2e45183181.setContent(html_c82edaadc54265db593668776dad42af);
+            
+        
+
+        circle_marker_61a227dc1ceec5a7422274816156e68b.bindPopup(popup_43b6a8604bc66d4013d21c2e45183181)
+        ;
+
+        
+    
+    
+            var circle_marker_c11c092086672d123518ee526fe32ed1 = L.circleMarker(
+                [20.1126, 94.21466666666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_fe8d39ff94f3fdb7b014671f954b6e47 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7185399709cecfc09009ca2316bb021e = $(`<div id="html_7185399709cecfc09009ca2316bb021e" style="width: 100.0%; height: 100.0%;">NAVIRE-6233 — Radio (13462.3 km)</div>`)[0];
+                popup_fe8d39ff94f3fdb7b014671f954b6e47.setContent(html_7185399709cecfc09009ca2316bb021e);
+            
+        
+
+        circle_marker_c11c092086672d123518ee526fe32ed1.bindPopup(popup_fe8d39ff94f3fdb7b014671f954b6e47)
+        ;
+
+        
+    
+    
+            var poly_line_36cce0894f53c55aa72247dafff8f050 = L.polyline(
+                [[-23.00517142857143, -21.99101428571429], [20.1126, 94.21466666666667]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_1a2aa575bbd6ca42cdd5406c458e9e70 = L.circleMarker(
+                [-1.2842538461538475, 82.27555384615385],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_9ced0a2bdb61e2e624f452e4b30afc30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7249af2d723d9dc53856b1159910a4b = $(`<div id="html_a7249af2d723d9dc53856b1159910a4b" style="width: 100.0%; height: 100.0%;">NAVIRE-1774 — AIS</div>`)[0];
+                popup_9ced0a2bdb61e2e624f452e4b30afc30.setContent(html_a7249af2d723d9dc53856b1159910a4b);
+            
+        
+
+        circle_marker_1a2aa575bbd6ca42cdd5406c458e9e70.bindPopup(popup_9ced0a2bdb61e2e624f452e4b30afc30)
+        ;
+
+        
+    
+    
+            var circle_marker_268c7c2af832c85a631b6558c8da6116 = L.circleMarker(
+                [27.545266666666663, -41.957233333333335],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_742b099a639bfc450321fdfdfbf2bb6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a897238d536fcca7660dae3ec5191d87 = $(`<div id="html_a897238d536fcca7660dae3ec5191d87" style="width: 100.0%; height: 100.0%;">NAVIRE-1774 — Radio (13410.0 km)</div>`)[0];
+                popup_742b099a639bfc450321fdfdfbf2bb6d.setContent(html_a897238d536fcca7660dae3ec5191d87);
+            
+        
+
+        circle_marker_268c7c2af832c85a631b6558c8da6116.bindPopup(popup_742b099a639bfc450321fdfdfbf2bb6d)
+        ;
+
+        
+    
+    
+            var poly_line_e084031af690116ab2e96ee3dc2ee1c5 = L.polyline(
+                [[-1.2842538461538475, 82.27555384615385], [27.545266666666663, -41.957233333333335]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_3347957450ec4568b7947db9e49e7c13 = L.circleMarker(
+                [-3.601777777777779, -45.0669],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_32788fb0ce897f0dde559dc595960762 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99a656b5b0625191699622c0fc63e2bf = $(`<div id="html_99a656b5b0625191699622c0fc63e2bf" style="width: 100.0%; height: 100.0%;">NAVIRE-2387 — AIS</div>`)[0];
+                popup_32788fb0ce897f0dde559dc595960762.setContent(html_99a656b5b0625191699622c0fc63e2bf);
+            
+        
+
+        circle_marker_3347957450ec4568b7947db9e49e7c13.bindPopup(popup_32788fb0ce897f0dde559dc595960762)
+        ;
+
+        
+    
+    
+            var circle_marker_b2bc8d661ef35ef5090e437c28e33aae = L.circleMarker(
+                [-20.2055, 78.9772],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_451971a2336365ef0dce260ed872f4d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_225df6e2ddcd7485ea45f585078a7a2d = $(`<div id="html_225df6e2ddcd7485ea45f585078a7a2d" style="width: 100.0%; height: 100.0%;">NAVIRE-2387 — Radio (13362.9 km)</div>`)[0];
+                popup_451971a2336365ef0dce260ed872f4d3.setContent(html_225df6e2ddcd7485ea45f585078a7a2d);
+            
+        
+
+        circle_marker_b2bc8d661ef35ef5090e437c28e33aae.bindPopup(popup_451971a2336365ef0dce260ed872f4d3)
+        ;
+
+        
+    
+    
+            var poly_line_84fac2063c11640d781b3d0578b717c4 = L.polyline(
+                [[-3.601777777777779, -45.0669], [-20.2055, 78.9772]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_8e5e314180ed988ee48fe9b84ef6cb92 = L.circleMarker(
+                [-35.75671818181818, -40.128654545454545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_675d99d5d4a3020eb3a3b09d3d97dca0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f7aaa978df88e70a8b7de06b60fbbf8 = $(`<div id="html_9f7aaa978df88e70a8b7de06b60fbbf8" style="width: 100.0%; height: 100.0%;">NAVIRE-8489 — AIS</div>`)[0];
+                popup_675d99d5d4a3020eb3a3b09d3d97dca0.setContent(html_9f7aaa978df88e70a8b7de06b60fbbf8);
+            
+        
+
+        circle_marker_8e5e314180ed988ee48fe9b84ef6cb92.bindPopup(popup_675d99d5d4a3020eb3a3b09d3d97dca0)
+        ;
+
+        
+    
+    
+            var circle_marker_855b3b30d950c58338b610fe34e7c648 = L.circleMarker(
+                [42.8482, 59.2483],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_3bc15ab33f3dfb94f12ad37095d4e6cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbbbd3a286057c195bd31549f63ea2fa = $(`<div id="html_fbbbd3a286057c195bd31549f63ea2fa" style="width: 100.0%; height: 100.0%;">NAVIRE-8489 — Radio (13301.7 km)</div>`)[0];
+                popup_3bc15ab33f3dfb94f12ad37095d4e6cb.setContent(html_fbbbd3a286057c195bd31549f63ea2fa);
+            
+        
+
+        circle_marker_855b3b30d950c58338b610fe34e7c648.bindPopup(popup_3bc15ab33f3dfb94f12ad37095d4e6cb)
+        ;
+
+        
+    
+    
+            var poly_line_f4e740e28b4c9c070253e0919955a94f = L.polyline(
+                [[-35.75671818181818, -40.128654545454545], [42.8482, 59.2483]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_4f0109095338a0337c28d0eace666f7f = L.circleMarker(
+                [-13.393836363636364, -71.86894545454545],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_fc6006a8e39c6f67050983f9fd9350a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b0e1bef0a4473c725051dd383ea4b0c = $(`<div id="html_3b0e1bef0a4473c725051dd383ea4b0c" style="width: 100.0%; height: 100.0%;">NAVIRE-3890 — AIS</div>`)[0];
+                popup_fc6006a8e39c6f67050983f9fd9350a1.setContent(html_3b0e1bef0a4473c725051dd383ea4b0c);
+            
+        
+
+        circle_marker_4f0109095338a0337c28d0eace666f7f.bindPopup(popup_fc6006a8e39c6f67050983f9fd9350a1)
+        ;
+
+        
+    
+    
+            var circle_marker_66b4798537342a1dbdf66c72938e98c8 = L.circleMarker(
+                [-33.9895, 67.77157500000001],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_e825c853aa5b2ba876f534d7b68838b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_377c711da94fb140303cd82c94f354ce = $(`<div id="html_377c711da94fb140303cd82c94f354ce" style="width: 100.0%; height: 100.0%;">NAVIRE-3890 — Radio (13234.5 km)</div>`)[0];
+                popup_e825c853aa5b2ba876f534d7b68838b4.setContent(html_377c711da94fb140303cd82c94f354ce);
+            
+        
+
+        circle_marker_66b4798537342a1dbdf66c72938e98c8.bindPopup(popup_e825c853aa5b2ba876f534d7b68838b4)
+        ;
+
+        
+    
+    
+            var poly_line_1f6c43fd94461ab11ae76db6e6e9ffec = L.polyline(
+                [[-13.393836363636364, -71.86894545454545], [-33.9895, 67.77157500000001]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_9d117719fbdd5089f6cb23fee0cfcbb3 = L.circleMarker(
+                [5.820230000000002, 68.41434000000001],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_c09cdad9aa455fe61162b2c39a2ed212 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3f17f86a0412e6b4cb0f3dff6a75a18 = $(`<div id="html_a3f17f86a0412e6b4cb0f3dff6a75a18" style="width: 100.0%; height: 100.0%;">NAVIRE-9224 — AIS</div>`)[0];
+                popup_c09cdad9aa455fe61162b2c39a2ed212.setContent(html_a3f17f86a0412e6b4cb0f3dff6a75a18);
+            
+        
+
+        circle_marker_9d117719fbdd5089f6cb23fee0cfcbb3.bindPopup(popup_c09cdad9aa455fe61162b2c39a2ed212)
+        ;
+
+        
+    
+    
+            var circle_marker_6c96656211f24f313b0127ecd80b0314 = L.circleMarker(
+                [19.05455, -54.79825],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_10730081c8a9432865297f937dd1676e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bae8166d557ceea0415c1e3e6ba848fe = $(`<div id="html_bae8166d557ceea0415c1e3e6ba848fe" style="width: 100.0%; height: 100.0%;">NAVIRE-9224 — Radio (13211.5 km)</div>`)[0];
+                popup_10730081c8a9432865297f937dd1676e.setContent(html_bae8166d557ceea0415c1e3e6ba848fe);
+            
+        
+
+        circle_marker_6c96656211f24f313b0127ecd80b0314.bindPopup(popup_10730081c8a9432865297f937dd1676e)
+        ;
+
+        
+    
+    
+            var poly_line_8608dbb508fac7866555fd368b01c9ea = L.polyline(
+                [[5.820230000000002, 68.41434000000001], [19.05455, -54.79825]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_6816789c02b95dc25c16e094d275001b = L.circleMarker(
+                [27.265679999999996, -106.9195],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_838979e606e212e861513d51c0a2950b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d3c6f07de93eaf15e0ca5710f933e38 = $(`<div id="html_5d3c6f07de93eaf15e0ca5710f933e38" style="width: 100.0%; height: 100.0%;">NAVIRE-2546 — AIS</div>`)[0];
+                popup_838979e606e212e861513d51c0a2950b.setContent(html_5d3c6f07de93eaf15e0ca5710f933e38);
+            
+        
+
+        circle_marker_6816789c02b95dc25c16e094d275001b.bindPopup(popup_838979e606e212e861513d51c0a2950b)
+        ;
+
+        
+    
+    
+            var circle_marker_908174a84407f250182f065b496f3d5b = L.circleMarker(
+                [3.243449999999999, 17.606166666666667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_33af2c81a03d368b22bb351674cfd4ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89b465dcc5580b0622adc578dbf562a5 = $(`<div id="html_89b465dcc5580b0622adc578dbf562a5" style="width: 100.0%; height: 100.0%;">NAVIRE-2546 — Radio (13176.0 km)</div>`)[0];
+                popup_33af2c81a03d368b22bb351674cfd4ee.setContent(html_89b465dcc5580b0622adc578dbf562a5);
+            
+        
+
+        circle_marker_908174a84407f250182f065b496f3d5b.bindPopup(popup_33af2c81a03d368b22bb351674cfd4ee)
+        ;
+
+        
+    
+    
+            var poly_line_fbe2925fc95f16bc4805c1d6c94bc90a = L.polyline(
+                [[27.265679999999996, -106.9195], [3.243449999999999, 17.606166666666667]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_293fad5e0e66b03081ae132fe0664844 = L.circleMarker(
+                [-26.578554545454548, -55.27186363636363],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_4b995af6841bc04464c5a454f4c1a7e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd47b16e4ad8b828d801c5516b918247 = $(`<div id="html_bd47b16e4ad8b828d801c5516b918247" style="width: 100.0%; height: 100.0%;">NAVIRE-8741 — AIS</div>`)[0];
+                popup_4b995af6841bc04464c5a454f4c1a7e7.setContent(html_bd47b16e4ad8b828d801c5516b918247);
+            
+        
+
+        circle_marker_293fad5e0e66b03081ae132fe0664844.bindPopup(popup_4b995af6841bc04464c5a454f4c1a7e7)
+        ;
+
+        
+    
+    
+            var circle_marker_3d18108cc822e7e154bf2fbad0d4111d = L.circleMarker(
+                [62.16193333333334, 45.454066666666655],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_aabb8109c06702a28fe7aab4fa939dea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ace325201747133ce7736c5d1e3364f = $(`<div id="html_7ace325201747133ce7736c5d1e3364f" style="width: 100.0%; height: 100.0%;">NAVIRE-8741 — Radio (13149.2 km)</div>`)[0];
+                popup_aabb8109c06702a28fe7aab4fa939dea.setContent(html_7ace325201747133ce7736c5d1e3364f);
+            
+        
+
+        circle_marker_3d18108cc822e7e154bf2fbad0d4111d.bindPopup(popup_aabb8109c06702a28fe7aab4fa939dea)
+        ;
+
+        
+    
+    
+            var poly_line_a096afeb9e6af59c7134477bc3e0a206 = L.polyline(
+                [[-26.578554545454548, -55.27186363636363], [62.16193333333334, 45.454066666666655]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_e9524fe4b973c57e65ce2169c103a72b = L.circleMarker(
+                [9.38537777777778, -20.64028888888889],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_5411f0197d8f49eadfc80490c740ae0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5753d5afe04a4c9d2d732d407208b3e5 = $(`<div id="html_5753d5afe04a4c9d2d732d407208b3e5" style="width: 100.0%; height: 100.0%;">NAVIRE-6411 — AIS</div>`)[0];
+                popup_5411f0197d8f49eadfc80490c740ae0f.setContent(html_5753d5afe04a4c9d2d732d407208b3e5);
+            
+        
+
+        circle_marker_e9524fe4b973c57e65ce2169c103a72b.bindPopup(popup_5411f0197d8f49eadfc80490c740ae0f)
+        ;
+
+        
+    
+    
+            var circle_marker_c20ac8e3c6f64b3308ae5739678e9f94 = L.circleMarker(
+                [-25.2734, 96.0032],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_0145ca123abe2391dcac8e4d7d5a3cf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a703cbb51a7504bfc9be1e62cbd180c3 = $(`<div id="html_a703cbb51a7504bfc9be1e62cbd180c3" style="width: 100.0%; height: 100.0%;">NAVIRE-6411 — Radio (13122.7 km)</div>`)[0];
+                popup_0145ca123abe2391dcac8e4d7d5a3cf1.setContent(html_a703cbb51a7504bfc9be1e62cbd180c3);
+            
+        
+
+        circle_marker_c20ac8e3c6f64b3308ae5739678e9f94.bindPopup(popup_0145ca123abe2391dcac8e4d7d5a3cf1)
+        ;
+
+        
+    
+    
+            var poly_line_c3695bdb8fed75a1403cd77ba2cd062d = L.polyline(
+                [[9.38537777777778, -20.64028888888889], [-25.2734, 96.0032]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_f9f5a20f50ccb159e935b6bed47244ec = L.circleMarker(
+                [4.3961666666666686, -98.64948333333332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_96eb64fcc741cc43be4fe04d36cc5b53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f85fad6549766aaad7815a0b8b34b0bf = $(`<div id="html_f85fad6549766aaad7815a0b8b34b0bf" style="width: 100.0%; height: 100.0%;">NAVIRE-7414 — AIS</div>`)[0];
+                popup_96eb64fcc741cc43be4fe04d36cc5b53.setContent(html_f85fad6549766aaad7815a0b8b34b0bf);
+            
+        
+
+        circle_marker_f9f5a20f50ccb159e935b6bed47244ec.bindPopup(popup_96eb64fcc741cc43be4fe04d36cc5b53)
+        ;
+
+        
+    
+    
+            var circle_marker_b3272760e2bd32c6880a13b487898a84 = L.circleMarker(
+                [-14.768799999999999, 18.887279999999997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_4cb654d89f77b45c882057339bad7429 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba5963a446c2dee59c35f9bb57cc3335 = $(`<div id="html_ba5963a446c2dee59c35f9bb57cc3335" style="width: 100.0%; height: 100.0%;">NAVIRE-7414 — Radio (13090.7 km)</div>`)[0];
+                popup_4cb654d89f77b45c882057339bad7429.setContent(html_ba5963a446c2dee59c35f9bb57cc3335);
+            
+        
+
+        circle_marker_b3272760e2bd32c6880a13b487898a84.bindPopup(popup_4cb654d89f77b45c882057339bad7429)
+        ;
+
+        
+    
+    
+            var poly_line_74bdda1db7bf461bfcf314fda62b124c = L.polyline(
+                [[4.3961666666666686, -98.64948333333332], [-14.768799999999999, 18.887279999999997]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_86fbf0eba0aa30b6fca803b650d39d02 = L.circleMarker(
+                [8.5482, 156.4676],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_a12404ed9142e4ddeb14e5d6ac15f155 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_599bc943fe7bd8e825113d8e118be037 = $(`<div id="html_599bc943fe7bd8e825113d8e118be037" style="width: 100.0%; height: 100.0%;">NAVIRE-2925 — AIS</div>`)[0];
+                popup_a12404ed9142e4ddeb14e5d6ac15f155.setContent(html_599bc943fe7bd8e825113d8e118be037);
+            
+        
+
+        circle_marker_86fbf0eba0aa30b6fca803b650d39d02.bindPopup(popup_a12404ed9142e4ddeb14e5d6ac15f155)
+        ;
+
+        
+    
+    
+            var circle_marker_ccb29506790f1d96046eabd840f2b64e = L.circleMarker(
+                [12.185233333333334, 35.7319],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_d272b82618a435f136be6f5acd3b1cef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_331598750901cc7f118aacd4d376afe3 = $(`<div id="html_331598750901cc7f118aacd4d376afe3" style="width: 100.0%; height: 100.0%;">NAVIRE-2925 — Radio (13071.8 km)</div>`)[0];
+                popup_d272b82618a435f136be6f5acd3b1cef.setContent(html_331598750901cc7f118aacd4d376afe3);
+            
+        
+
+        circle_marker_ccb29506790f1d96046eabd840f2b64e.bindPopup(popup_d272b82618a435f136be6f5acd3b1cef)
+        ;
+
+        
+    
+    
+            var poly_line_6a348749a5ca2666c3a604e288bc1b0b = L.polyline(
+                [[8.5482, 156.4676], [12.185233333333334, 35.7319]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+            var circle_marker_33b56f15bdb5d1fd1ad91221063717d3 = L.circleMarker(
+                [35.008315384615386, -20.231992307692305],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_233365b26c77ea3217eb5577cb7fd68b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd63a6197876099edb802c7290e1ca43 = $(`<div id="html_cd63a6197876099edb802c7290e1ca43" style="width: 100.0%; height: 100.0%;">NAVIRE-3627 — AIS</div>`)[0];
+                popup_233365b26c77ea3217eb5577cb7fd68b.setContent(html_cd63a6197876099edb802c7290e1ca43);
+            
+        
+
+        circle_marker_33b56f15bdb5d1fd1ad91221063717d3.bindPopup(popup_233365b26c77ea3217eb5577cb7fd68b)
+        ;
+
+        
+    
+    
+            var circle_marker_f4fd0ac97f19eb7d907d0909104be4c4 = L.circleMarker(
+                [13.536166666666666, 118.16199999999999],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+    
+        var popup_305b2274456ea26357f5e28044969996 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e26410305f962d5945c091c1bb7a84d0 = $(`<div id="html_e26410305f962d5945c091c1bb7a84d0" style="width: 100.0%; height: 100.0%;">NAVIRE-3627 — Radio (13061.1 km)</div>`)[0];
+                popup_305b2274456ea26357f5e28044969996.setContent(html_e26410305f962d5945c091c1bb7a84d0);
+            
+        
+
+        circle_marker_f4fd0ac97f19eb7d907d0909104be4c4.bindPopup(popup_305b2274456ea26357f5e28044969996)
+        ;
+
+        
+    
+    
+            var poly_line_23d06ed2c7eb78068854eb64488228d9 = L.polyline(
+                [[35.008315384615386, -20.231992307692305], [13.536166666666666, 118.16199999999999]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_9681102efbfbe041eba447d6bf3cf210);
+        
+</script>
+</html>
